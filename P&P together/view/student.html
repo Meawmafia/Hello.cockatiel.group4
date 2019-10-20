@@ -1,4 +1,5 @@
 <!-- 20. -->
+
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -50,23 +51,24 @@
     </script>
 </head>
 
-<body style="background-color: #d9e9cc">
+<body style="background-color: #DCEDC8">
     <!-- 19. -->
-    <div class="">
+    <div class="container">
         <!-- 18. -->
-        <div class="">
+        <div class="row">
 
         </div>
         <!-- 17. -->
-        <div class="">
+        <div class="col">
             <!-- 6. -->
-            <img onmouseover=changeImage() onmouseout=changeImageBack() src="" alt="birb" id="birdImage" 
+            <img onmouseover=changeImage() onmouseout=changeImageBack() src="P&P together\img\hide.jpg" alt="birb" id="birdImage"
                 width="auto" height="250px">
+
         </div>
     </div>
     <div class="row" id="firstRow">
         <!-- 14. -->
-        <div>
+        <div class="col">
             <div class="input-group">
                 <input id="inputField" type="text" class="form-control" placeholder="Click button to see magic"
                     aria-label="Click button to see magic" aria-describedby="basic-addon2" disabled>
@@ -77,20 +79,20 @@
             </div>
         </div>
         <!-- 15. -->
-        <div>
+        <div class="col">
             <!-- 3. -->
-            <button class="" onClick="">Show</button>
+            <button type="button" class="btn btn-primary"onClick="">Show</button>
             <!-- 4. -->
-            <button class="" onClick="">Hide</button>
+            <button type="button" class="btn btn-danger" onclick="">Hide</button>
             <!-- 5. -->
-            <h2 id=''>Hi Little Birb</h2>
+            <h2 id='hi' style="color :red">Hi Little Birb</h2>
         </div>
         <!-- 16. -->
-        <div>
+        <div class ="col">
             <!-- 1. -->
-            <button class="" onClick="">Change Row Color</button>
+            <button type="button" class="btn btn-warning" onClick="">Change Row Color</button>
             <!-- 2. -->
-            <button class="" onClick="">Back</button>
+            <button type="button" class="btn btn-success" onClick="">Back</button>
         </div>
     </div>
 </body>
