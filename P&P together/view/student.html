@@ -20,10 +20,10 @@
     <script>
         var count = 0;
         function hideName() {
-            // 9.
+            document.getElementById('hideName').style.display = 'none';
         }
         function showName() {
-            // 10.
+            document.getElementById("hideName").style.display = 'block'
         }
         function changeImage() {
             // 11.
@@ -44,7 +44,7 @@
                 document.getElementById('inputField').value = "Hi Little Bird We love you!"
                 count = 1;
             } else {
-                // 13.
+                document.getElementById('inputField').value = "";
                 count = 0;
             }
         }
@@ -61,8 +61,8 @@
         <!-- 17. -->
         <div class="col">
             <!-- 6. -->
-            <img onmouseover=changeImage() onmouseout=changeImageBack() src="P&P together\img\hide.jpg" alt="birb" id="birdImage"
-                width="auto" height="250px">
+            <img onmouseover=changeImage() onmouseout=changeImageBack() src="P&P together\img\hide.jpg" alt="birb"
+                id="birdImage" width="auto" height="250px">
 
         </div>
     </div>
@@ -78,17 +78,17 @@
                 </div>
             </div>
         </div>
-        <!-- 15. -->
-        <div class="col">
-            <!-- 3. -->
-            <button type="button" class="btn btn-primary"onClick="">Show</button>
-            <!-- 4. -->
+
+        <div class="col1">
+
+            <button type="button" class="btn btn-primary" onClick="">Show</button>
+
             <button type="button" class="btn btn-danger" onclick="">Hide</button>
-            <!-- 5. -->
-            <h2 id='hi' style="color :red">Hi Little Birb</h2>
+
+            <h2 id='hideName' style="display: block;">Hi Little Birb</h2>
         </div>
-        <!-- 16. -->
-        <div class ="col">
+       
+        <div class="col">
             <!-- 1. -->
             <button type="button" class="btn btn-warning" onClick="">Change Row Color</button>
             <!-- 2. -->
