@@ -49,13 +49,13 @@
             }
         }
     </script>
+    <link type="text/css" rel="stylesheet" charset="UTF-8"
+        href="https://translate.googleapis.com/translate_static/css/translateelement.css">
 </head>
 
-<body style="background-color: #DCEDC8">
-    <!-- 19. -->
-    <div class="container">
-        <!-- 18. -->
-        <div class="row">
+<body style="background-color: #d9d9cc">
+    <div class="row">
+        <div class="container">
 
         </div>
         <!-- 17. -->
@@ -73,13 +73,13 @@
                 <input id="inputField" type="text" class="form-control" placeholder="Click button to see magic"
                     aria-label="Click button to see magic" aria-describedby="basic-addon2" disabled>
                 <div class="input-group-append">
-                    <!-- 7. -->
+
                     <button class="btn btn-outline-secondary" type="button" onclick="changeInputField()">Magic</button>
                 </div>
             </div>
         </div>
 
-        <div class="col1">
+        <div class="col">
 
             <button type="button" class="btn btn-primary" onClick="">Show</button>
 
@@ -87,12 +87,36 @@
 
             <h2 id='hideName' style="display: block;">Hi Little Birb</h2>
         </div>
-       
+
         <div class="col">
-            <!-- 1. -->
-            <button type="button" class="btn btn-warning" onClick="">Change Row Color</button>
-            <!-- 2. -->
-            <button type="button" class="btn btn-success" onClick="">Back</button>
+
+            <button type="button" class="btn btn-warning" onClick="changeBackground">Change Row Color</button>
+
+            <button type="button" class="btn btn-success" onClick="changeBackgroundBack">Back</button>
         </div>
     </div>
+    <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+        <div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20"
+                height="20" alt="Google Translate"></div>
+        <div style="padding: 8px;">
+            <div>
+            </div>
+        </div>
+        <div class="top" style="padding: 8px; float: left; width: 100%;">
+            <h1 class="title gray">Original text</h1>
+        </div>
+        <div class="middle" style="padding: 8px;">
+            <div class="original-text"></div>
+        </div>
+        <div class="bottom" style="padding: 8px;">
+            <div class="activity-links"><span class="activity-link">Contribute a better translation</span><span
+                    class="activity-link"></span></div>
+            <div class="started-activity-container">
+                <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+                <div class="activity-root"></div>
+            </div>
+        </div>
+        <div class="status-message" style="display: none;"></div>
+    </div>
+    <div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div>
 </body>
